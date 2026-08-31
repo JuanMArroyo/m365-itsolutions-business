@@ -67,7 +67,7 @@ selector2._domainkey → selector2-itsolutions312-lol._domainkey.<tenant>.onmicr
 
 
 **Screenshot:**  
-![DKIM Pass](../screenshots/domain-setup/dkim-pass.png)
+![DKIM Pass](../screenshots/domain-setup/arc-pass-dkim-pass.png)
 
 
 ---
