@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+flowchart graph LR
     A[Microsoft 365 Tenant] --> B[Entra ID]
     A --> C[Exchange Online]
     A --> D[SharePoint & Teams]
