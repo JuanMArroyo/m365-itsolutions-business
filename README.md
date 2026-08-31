@@ -1,47 +1,63 @@
-# M365 IT Solutions Business — Full Microsoft 365 Tenant Deployment
+# IT Solutions — Microsoft 365 Tenant Deployment
 
-This repository documents the full deployment of **IT Solutions Business**, a complete Microsoft 365 Business tenant built from the ground up as part of my enterprise homelab and cloud engineering portfolio.
-
-The project demonstrates real‑world skills in identity management, domain integration, security hardening, collaboration architecture, automation, and professional documentation — the same skills used daily by modern IT Support, Systems Administrators, and Cloud Engineers.
-
-This environment was designed, deployed, and configured end‑to‑end to mirror a real small‑business Microsoft 365 implementation.
-
+This project documents a complete Microsoft 365 Business tenant built from scratch for a fictional company, **IT Solutions**. It demonstrates practical skills in identity management, domain integration, security configuration, collaboration setup, and cloud administration.
 
 ---
 
-## 🚀 Project Overview
+## 🔧 Core Build
 
-This repository contains the complete build‑out of a Microsoft 365 Business tenant for a fictional company: **IT Solutions**. The environment includes:
-
-- Custom domain integration (`itsolutions312.lol`)
-- Entra ID identity architecture
+- Custom domain: **itsolutions312.lol** (Porkbun → Microsoft 365)
+- Entra ID users, groups, admin roles, MFA
 - Exchange Online mail flow + mailbox provisioning
-- SharePoint + Teams collaboration structure
-- Security defaults + MFA enforcement
-- PowerShell automation for user provisioning
-- Documentation, diagrams, and screenshots of every step
-
-This is not a “lab.”  
-This is a **real tenant**, configured exactly like a small business deployment.
+- SharePoint + Teams department structure
+- PowerShell automation for user onboarding
+- Organized documentation + screenshots
 
 ---
 
-## 🏢 Business Scenario
+## 🏗️ Architecture Overview
 
-**IT Solutions** is a small but growing tech services company that needs:
+M365 Tenant
+│
+├── Entra ID
+├── Exchange Online
+├── SharePoint / Teams
+└── Custom Domain (itsolutions312.lol)
 
-- A secure identity platform  
-- A professional email domain  
-- Department‑based collaboration  
-- Centralized administration  
-- Scalable licensing  
-- Cloud‑first operations  
-
-This project simulates what I would deliver as an IT Support Engineer or Cloud Administrator onboarding a new client into Microsoft 365.
 
 ---
 
-## 🛠️ Architecture
+## 📂 Repo Structure
 
-The tenant is built around four core layers:
+domain-setup/
+architecture/
+documentation/
+screenshots/
 
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Microsoft 365 administration  
+- DNS + domain integration  
+- Identity & access management  
+- Exchange + SharePoint configuration  
+- PowerShell automation  
+- Professional documentation  
+
+---
+
+## 📌 Future Enhancements
+
+- Conditional Access  
+- Intune device management  
+- Autopilot  
+- Compliance & DLP  
+- Azure AD Connect (hybrid)  
+
+---
+
+## 👤 About Me
+
+I’m **Juan Arroyo**, an IT Support professional building real cloud environments to level up into cloud engineering.
