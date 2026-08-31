@@ -30,7 +30,7 @@ The following DNS records were added at Porkbun to support Microsoft 365 service
 - **Autodiscover CNAME** for Outlook/Exchange
 
 **Screenshot:**  
-![DNS Records](../screenshots/domain-setup/domain-setup.png)
+![DNS Records](../screenshots/domain-setup/DNS-setup.png)
 
 
 ---
