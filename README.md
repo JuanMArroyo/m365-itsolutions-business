@@ -24,17 +24,6 @@ M365 Tenant
 ├── SharePoint / Teams
 └── Custom Domain (itsolutions312.lol)
 
-
----
-
-## 📂 Repo Structure
-
-domain-setup/
-architecture/
-documentation/
-screenshots/
-
-
 ---
 
 ## 🚀 Skills Demonstrated
