@@ -8,9 +8,9 @@ graph LR
     A --> G[Automation]
     A --> H[Domain Setup]
 
-    subgraph Domain Setup
+    subgraph Domain [domain-setup]
         H1[Domain Registrar]
-        H2[DNS Records (MX / TXT / CNAME)]
+        H2[DNS Records: MX / TXT / CNAME]
         H3[M365 Domain Verification]
     end
     H --> H1
@@ -18,7 +18,7 @@ graph LR
     H --> H3
     H3 --> B
 
-    subgraph Identity
+    subgraph Identity [architecture]
         B1[Users]
         B2[Groups / Roles]
         B3[MFA / Conditional Access]
@@ -27,7 +27,7 @@ graph LR
     B --> B2
     B --> B3
 
-    subgraph Exchange Online
+    subgraph EXO [exchange-online]
         C1[Mailboxes]
         C2[Mail Flow]
         C3[Transport Rules]
@@ -36,7 +36,7 @@ graph LR
     C --> C2
     C --> C3
 
-    subgraph SharePoint & Teams
+    subgraph SPO [sharepoint-teams]
         D1[SharePoint Sites]
         D2[Document Libraries]
         D3[Teams Channels]
@@ -47,7 +47,7 @@ graph LR
     D --> D3
     D --> D4
 
-    subgraph Intune Setup
+    subgraph INTUNE [intune-setup]
         E1[Device Enrollment]
         E2[Compliance Policies]
         E3[App Protection]
@@ -56,9 +56,9 @@ graph LR
     E --> E2
     E --> E3
 
-    subgraph Security & Compliance
+    subgraph SEC [security-compliance]
         F1[Microsoft Defender]
-        F2[Purview (DLP / Retention)]
+        F2[Purview: DLP / Retention]
         F3[Audit / eDiscovery]
         F4[Zero Trust Policies]
     end
@@ -67,10 +67,10 @@ graph LR
     F --> F3
     F --> F4
 
-    subgraph Automation
+    subgraph AUTO [automation]
         G1[PowerShell Scripts]
         G2[Python Automation]
-        G3[CLI Tools (az / m365)]
+        G3[CLI Tools: az / m365]
     end
     G --> G1
     G --> G2
