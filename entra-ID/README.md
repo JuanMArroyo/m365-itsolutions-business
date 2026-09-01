@@ -31,7 +31,7 @@ The tenant is structured around **departments**, **roles**, and **groups**, each
 - Operations  
 - Support
 
-  ![Groups & Roles](./screenshots/entra-id/groups-roles.png)
+  ![Groups & Roles](../screenshots/entra-id/groups-roles.png)
   
 
 ### Core Identity Components
@@ -44,7 +44,7 @@ The tenant is structured around **departments**, **roles**, and **groups**, each
 | **Admin Roles** | Directory Reader, Privileged Role Admin, Helpdesk Admin |
 | **PIM** | Time-limited admin access with MFA and approval workflow |
 
-![Users & Positions](./screenshots/entra-id/users-positions.png)
+![Users & Positions](../screenshots/entra-id/users-positions.png)
 
 ---
 
