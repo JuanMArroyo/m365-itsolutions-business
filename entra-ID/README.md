@@ -31,7 +31,7 @@ The tenant is structured around **departments**, **roles**, and **groups**, each
 - Operations  
 - Support
 
-  ![Groups & Roles](m365-itsolutions-business/screenshots/entra-id/groups-roles.png)
+  ![Groups & Roles](screenshots/entra-id/groups-roles.png)
   
 
 ### Core Identity Components
