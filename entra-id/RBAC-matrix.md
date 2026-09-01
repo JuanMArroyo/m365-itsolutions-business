@@ -36,4 +36,28 @@ graph LR
     %% SharePoint Sites (Permissions)
     EX --> SP_All_Read[All Sites (Read)]
     IT_Team --> SP_IT[IT Site]
-    HR_Team -->
+    HR_Team --> SP_HR[HR Site]
+    FIN_Team --> SP_FIN[Finance Site]
+    SALES_Team --> SP_SALES[Sales Site]
+    MKT_Team --> SP_MKT[Marketing Site]
+    OPS_Team --> SP_OPS[Operations Site]
+    SUP_Team --> SP_SUP[Support Site]
+
+    %% Apps / Services
+    ITM --> AdminCenter[Admin Center]
+    ITM --> Intune[Intune]
+    ITM --> Entra[Entra ID]
+
+    SA --> SP_Admin[SharePoint Admin Center]
+    SA --> Teams_Admin[Teams Admin Center]
+
+    ITT --> Helpdesk[Helpdesk Portal]
+    ITT --> Intune_Read[Intune (Read)]
+
+    HR_Team --> HR_Apps[HR Apps]
+    FIN_Team --> FIN_Apps[Finance Apps]
+    SALES_Team --> CRM[CRM / Sales Apps]
+    MKT_Team --> MKT_Apps[Marketing Apps]
+    OPS_Team --> OPS_Apps[Operations Apps]
+    SUP_Team --> Support_Apps[Support Apps]
+```
