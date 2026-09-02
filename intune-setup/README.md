@@ -19,6 +19,8 @@ In this section, I worked through:
 
 This gives me a complete picture of how organizations manage and secure endpoints across Microsoft 365.
 
+![Intune](../screenshots/intune/intune.png)
+
 ---
 
 ## 📱 Device Enrollment
@@ -30,6 +32,8 @@ This gives me a complete picture of how organizations manage and secure endpoint
 
 **Understanding:**  
 Enrollment brings devices under management so Intune can enforce security, compliance, and configuration.
+
+![Device Enrollment](../screenshots/intune/Device-enrollment.png)
 
 ---
 
@@ -43,6 +47,8 @@ Enrollment brings devices under management so Intune can enforce security, compl
 **Understanding:**  
 Compliance policies define the minimum security posture required for devices accessing organizational resources.
 
+![Policy](../screenshots/intune/policy.png)
+
 ---
 
 ## 📦 App Deployment
@@ -54,6 +60,8 @@ Compliance policies define the minimum security posture required for devices acc
 
 **Understanding:**  
 Intune delivers applications to devices, ensuring users have the tools they need while maintaining security.
+
+![Dashboard](../screenshots/intune/Dashboard.png)
 
 ---
 
@@ -90,6 +98,8 @@ Conditional Access uses device compliance to enforce Zero Trust principles acros
 
 **Understanding:**  
 Troubleshooting is a core skill for endpoint management and ensures policies behave as expected.
+
+![Audit logs](../screenshots/intune/audit-logs.png)
 
 ---
 
