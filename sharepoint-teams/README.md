@@ -24,10 +24,10 @@ Built a full Microsoft 365 enterprise environment integrating **SharePoint Commu
 
 *(Screenshots: Finance, HR, IT, Sales, Communication Sites)*
 ![Department Team Screenshots](../screenshots/sharepoint-teams/communication-hub.png)
-(../screenshots/sharepoint-teams/IT-site.png)
-(../screenshots/sharepoint-teams/Sales-Team-Site.png)
-(../screenshots/sharepoint-teams/HR-Site.png)
-(../screenshots/sharepoint-teams/Finance-Site.png)
+![](../screenshots/sharepoint-teams/IT-site.png)
+![](../screenshots/sharepoint-teams/Sales-Team-Site.png)
+![](../screenshots/sharepoint-teams/HR-Site.png)
+![](../screenshots/sharepoint-teams/Finance-Site.png)
 
 ---
 
