@@ -9,9 +9,9 @@ Implement enterprise‑grade data protection, auditing, and compliance using Mic
 - Sensitivity labels & encryption
 - eDiscovery & audit logging
 
-![DLP, Sensitivity Labels, eDiscovery](../screenshots/security-compliance/
-![](../screenshots/security-compliance/
-![](../screenshots/security-compliance/
+![DLP, Sensitivity Labels, eDiscovery](../screenshots/security-compliance/purview-solutions.png)
+![](../screenshots/security-compliance/sensitive-labels.png)
+![](../screenshots/security-compliance/eDiscovery.png)
 
 ## 🧭 Governance
 - Insider risk management
