@@ -32,6 +32,9 @@ This gives me a complete picture of how automation ties together identity, mail,
 **Understanding:**  
 PowerShell is the primary automation tool for Microsoft 365, enabling repeatable and scalable workflows.
 
+![Install Modules](../screenshots/automation/Install-modules.png)
+![Connect](../screenshots/automation/connect-modules.png)
+
 ---
 
 ## 🔗 Microsoft Graph API (Conceptual + Light Practice)
@@ -56,6 +59,8 @@ Graph API is the unified API for Microsoft 365, powering modern automation, repo
 **Understanding:**  
 Identity automation ensures consistent provisioning and reduces manual errors.
 
+![Create User](../screenshots/automation/create-user.png)
+
 ---
 
 ## 📬 Exchange Automation
@@ -68,6 +73,8 @@ Identity automation ensures consistent provisioning and reduces manual errors.
 
 **Understanding:**  
 Exchange automation simplifies mail flow management and large-scale mailbox operations.
+
+![exchange scripts](../screenshots/automation/exchange-online-scripts.png)
 
 ---
 
@@ -104,7 +111,10 @@ Even without full licensing, I learned how these operate in enterprise environme
 - Graph-based reporting pipelines  
 - Scheduled automation via Azure Automation  
 - Role-based access automation  
-- Large-scale tenant configuration  
+- Large-scale tenant configuration
+
+![Use CSV](../screenshots/automation/Use-CSV.png)
+![commone workflow](../screenshots/automation/common.png)
 
 ---
 
