@@ -49,6 +49,7 @@ This repo shows the full picture of a modern cloud environment.
 ## 📁 Repository Structure
 
 m365-itsolutions-business/
+
 │
 
 ├── entra-id/               # Identity, users, groups, roles
