@@ -9,14 +9,12 @@ Implement enterprise‑grade data protection, auditing, and compliance using Mic
 - Sensitivity labels & encryption
 - eDiscovery & audit logging
 
+![DLP, Sensitivity Labels, eDiscovery](../screenshots/security-compliance/
+![](../screenshots/security-compliance/
+![](../screenshots/security-compliance/
+
 ## 🧭 Governance
 - Insider risk management
 - Compliance score tracking
 - Conditional access policies
-
-## 🖼️ Screenshot References
-1. Purview Compliance Portal dashboard
-2. DLP policy configuration
-3. Sensitivity label setup
-4. Audit log search results
 
