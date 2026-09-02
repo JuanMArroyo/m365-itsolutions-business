@@ -114,7 +114,7 @@ Even without full licensing, I learned how these operate in enterprise environme
 - Large-scale tenant configuration
 
 ![Use CSV](../screenshots/automation/Use-CSV.png)
-![commone workflow](../screenshots/automation/common.png)
+![common workflow](../screenshots/automation/common-workflow-examples.png)
 
 ---
 
