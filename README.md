@@ -50,13 +50,21 @@ This repo shows the full picture of a modern cloud environment.
 
 m365-itsolutions-business/
 │
+
 ├── entra-id/               # Identity, users, groups, roles
+
 ├── exchange/               # Mail, calendars, mail flow
+
 ├── security-compliance/    # Purview, labels, retention, audit
+
 ├── intune/                 # Device management, compliance, apps
+
 ├── automation/             # PowerShell, Graph, bulk ops
+
 ├── sharepoint/             # Sites, libraries, external sharing
+
 ├── teams/                  # Collaboration, meetings, groups
+
 └── screenshots/            # Visual documentation
 
 
