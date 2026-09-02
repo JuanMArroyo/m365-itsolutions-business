@@ -35,7 +35,8 @@ Built a full Microsoft 365 enterprise environment integrating **SharePoint Commu
 - **SharePoint Admin Center:** Active sites, storage, hub associations  
 - **Teams Admin Center:** Team creation, privacy, and membership  
 *(Screenshots: Admin Centers overview)*
-
+![Admin-SP-Teams Screenshots](../screenshots/sharepoint-teams/sharepoint-admin.png)
+![](../screenshots/sharepoint-teams/teams-admin.png)
 ---
 
 ## Security Model
