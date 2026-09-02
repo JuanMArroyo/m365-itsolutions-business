@@ -49,4 +49,4 @@ M365 Tenant
 
 ## 👤 About Me
 
-I’m **Juan Arroyo**, an IT Support professional building real cloud environments to level up into cloud engineering.
+I’m **Juan Arroyo**, I have a passion for learning and a thirst for knowledge.
