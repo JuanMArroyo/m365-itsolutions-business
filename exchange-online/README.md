@@ -21,6 +21,8 @@ In this section, I worked through:
 
 This gives me a complete picture of how email and scheduling work across the organization.
 
+![Exchange Admin](../screenshots/exchange-online/exchange.png)
+
 ---
 
 ## 📬 User Mailboxes
@@ -44,6 +46,8 @@ Every licensed user gets a mailbox that integrates with Outlook, Teams, and the 
 
 **Understanding:**  
 Shared mailboxes allow teams to manage communication without individual licensing.
+
+![Shared Mailbox](../screenshots/exchange-online/shared-mailbox.png)
 
 ---
 
@@ -81,6 +85,8 @@ M365 Groups unify collaboration across mail, files, and chat.
 **Understanding:**  
 Mail flow rules control how messages move through the organization.
 
+![Mail Flow](../screenshots/domain-setup/testing-mail-flow.png)
+
 ---
 
 ## 🛡️ Anti-Spam and Anti-Malware
@@ -105,7 +111,7 @@ Exchange Online Protection (EOP) provides built-in filtering for all tenants.
 **Understanding:**  
 Message trace is essential for diagnosing mail delivery issues.
 
-![Message Trace](../screenshots/
+![Message Trace](../screenshots/exchange-online/message-trace.png)
 
 ---
 
@@ -131,6 +137,8 @@ Even without higher licensing, I learned how these operate in enterprise environ
 - eDiscovery Premium  
 - Advanced audit  
 - Hybrid Exchange concepts
+
+![Email migration](../screenshots/exchange-online/email-migration.png)
 
 ---
 
