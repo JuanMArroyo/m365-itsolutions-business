@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 This project documents the **Microsoft Entra ID (formerly Azure Active Directory)** configuration for the **IT Solutions Business Tenant**.  
-It demonstrates a full enterprise identity architecture including **users**, **groups**, **RBAC structure**, and **privileged access management**.
+It demonstrates a lab-scale identity architecture including **users**, **groups**, **RBAC structure**, and **privileged access management** concepts.
 
 The goal:  
 > Build a realistic, secure, and scalable identity environment that mirrors how modern organizations manage access in Microsoft 365 and Entra ID.

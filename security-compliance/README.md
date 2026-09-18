@@ -130,4 +130,4 @@ Even without E5, I learned how these operate in enterprise environments:
 
 ## ⭐ Summary
 
-I built a complete understanding of Microsoft 365 Security and Compliance by combining hands-on practice, simulation, UI exploration, and conceptual learning. Even without E5 licensing, I gained practical experience with core tools and learned how advanced Purview features work in real enterprise environments.
+I combined hands-on practice, simulation, UI exploration, and conceptual learning. Even without E5 licensing, I gained practical experience with core tools and documented how advanced Purview capabilities are used in enterprise environments.

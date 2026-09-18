@@ -17,7 +17,7 @@ In this section, I worked through:
 - 🧪 Testing device compliance behavior
 - 🧠 Conceptual understanding of advanced Intune and Endpoint Security features
 
-This gives me a complete picture of how organizations manage and secure endpoints across Microsoft 365.
+This gave me a practical picture of how organizations manage and secure endpoints across Microsoft 365.
 
 ![Intune](../screenshots/intune/intune.png)
 
@@ -118,4 +118,4 @@ Even without advanced licensing, I learned how these operate in enterprise envir
 
 ## ⭐ Summary
 
-I built a complete understanding of Microsoft Intune by combining hands-on practice, UI exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core endpoint management features and learned how enterprise-level device security and compliance operate inside Microsoft 365.
+I combined hands-on practice, UI exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core endpoint management features and documented how device security and compliance are designed in Microsoft 365.

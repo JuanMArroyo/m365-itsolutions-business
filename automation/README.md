@@ -17,7 +17,7 @@ In this section, I worked through:
 - 🛡️ Policy deployment automation
 - 🧠 Conceptual understanding of advanced automation workflows
 
-This gives me a complete picture of how automation ties together identity, mail, devices, and compliance.
+This gave me a practical picture of how automation can connect identity, mail, devices, and compliance workflows.
 
 ---
 
@@ -120,4 +120,4 @@ Even without full licensing, I learned how these operate in enterprise environme
 
 ## ⭐ Summary
 
-I built a complete understanding of Microsoft 365 automation by combining hands-on PowerShell practice, Graph exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core automation workflows and learned how enterprise-level identity, mail, device, and compliance automation operate inside Microsoft 365.
+I combined hands-on PowerShell practice, Graph exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core automation workflows and documented how identity, mail, device, and compliance automation can operate in Microsoft 365.

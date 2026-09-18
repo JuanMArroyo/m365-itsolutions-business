@@ -19,7 +19,7 @@ In this section, I worked through:
 - 📅 Calendar sharing and permissions  
 - 🧠 Conceptual understanding of advanced Exchange features  
 
-This gives me a complete picture of how email and scheduling work across the organization.
+This gave me a practical picture of how email and scheduling work across the modeled organization.
 
 ![Exchange Admin](../screenshots/exchange-online/exchange.png)
 
@@ -144,4 +144,4 @@ Even without higher licensing, I learned how these operate in enterprise environ
 
 ## ⭐ Summary
 
-I built a complete understanding of Exchange Online by combining hands-on practice, UI exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core features and learned how enterprise-level mail flow, security, and collaboration operate inside Microsoft 365.
+I combined hands-on practice, UI exploration, and conceptual learning. Even without advanced licensing, I gained practical experience with core features and documented how enterprise mail flow, security, and collaboration are designed in Microsoft 365.

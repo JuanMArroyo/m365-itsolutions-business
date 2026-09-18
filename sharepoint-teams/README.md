@@ -1,7 +1,7 @@
 # SharePoint–Teams Enterprise Architecture (Homelab)
 
 ## Overview
-Built a full Microsoft 365 enterprise environment integrating **SharePoint Communication Sites**, **Team Sites**, and **Microsoft Teams** — modeled after Fortune 500 intranet architecture and least‑privilege security principles.
+Built a Microsoft 365 collaboration environment integrating **SharePoint Communication Sites**, **Team Sites**, and **Microsoft Teams** — modeled on enterprise intranet patterns and least‑privilege security principles.
 
 ---
 
@@ -60,7 +60,7 @@ Built a full Microsoft 365 enterprise environment integrating **SharePoint Commu
 ---
 
 ## Summary
-✅ Enterprise‑grade SharePoint + Teams architecture  
+✅ Enterprise‑oriented SharePoint + Teams architecture
 ✅ Group‑based permissions (least privilege)  
 ✅ Departmental intranet + collaboration spaces  
 ✅ Admin‑level configuration and governance  

@@ -1,120 +1,84 @@
-# 🏢 M365 IT Solutions Business Environment
+# Microsoft 365 Business Environment
 
-This project is a complete, hands-on Microsoft 365 business environment built from scratch.  
-The goal wasn’t to master every advanced feature — it was to **understand the entire ecosystem clearly**, configure real components, document everything, and create a professional portfolio that reflects real IT admin skills.
+Portfolio project documenting the design and administration of a small-business Microsoft 365 tenant. The environment covers identity, messaging, endpoint management, collaboration, security, compliance, and automation through repeatable, engineer-style documentation.
 
-Every section in this repo represents a core pillar of Microsoft 365 and includes:
-- Hands-on configurations  
-- Screenshots  
-- Clear explanations  
-- Real admin workflows  
-- Conceptual understanding of enterprise features  
+## Why I built it
 
-This project mirrors how real IT departments design, manage, and secure a cloud environment.
+This project demonstrates four Cloud Engineer capabilities:
 
----
+1. **Cloud identity and access** — Entra ID users, groups, roles, domain verification, and identity workflows.
+2. **Enterprise collaboration services** — Exchange Online, SharePoint, OneDrive, and Teams working together for a business.
+3. **Endpoint, security, and compliance operations** — Intune enrollment and policies plus Purview, retention, DLP, audit, and eDiscovery concepts.
+4. **Automation and operational documentation** — PowerShell, Microsoft Graph, CLI workflows, screenshots, and troubleshooting notes.
 
-## 📘 Project Overview
+## Architecture
 
-This environment covers the full Microsoft 365 stack:
+The tenant is organized around Entra ID as the identity layer, with Microsoft 365 workloads connected through shared users, groups, roles, policies, and automation.
 
-- 🔐 **Entra ID** – Identity, users, groups, roles  
-- 📧 **Exchange Online** – Mail, calendars, groups, mail flow  
-- 🛡️ **Security & Compliance (Purview)** – Labels, retention, audit, eDiscovery  
-- 📱 **Intune** – Device management, compliance, configuration, apps  
-- ⚙️ **Automation** – PowerShell, Graph API, bulk operations  
-- 📂 **SharePoint & OneDrive** – Storage, collaboration, external sharing  
-- 💬 **Teams** – Communication, meetings, integration with M365 Groups  
+The source diagram is maintained in [architecture/m365-tenant-structure.md](architecture/m365-tenant-structure.md).
 
-Each folder contains a dedicated README with consistent formatting, emojis, and explanations.
+## Repository layout
 
----
+```text
+domain-setup/         Domain verification, DNS, SPF, DKIM, DMARC, mail-flow testing
+entra-ID/             Users, groups, roles, departments, and RBAC concepts
+exchange-online/      Mailboxes, shared mailboxes, groups, transport, and message trace
+intune-setup/         Enrollment, compliance policies, apps, profiles, and testing
+security-compliance/  Purview labels, retention, DLP, audit, and eDiscovery
+sharepoint-teams/     Sites, libraries, Teams, governance, and collaboration structure
+automation/           PowerShell, Graph API, bulk operations, and administration workflows
+architecture/         Tenant relationship diagram
+screenshots/          Visual evidence organized by capability
+```
 
-## 🧩 Architecture Summary
+## What I implemented
 
-This project demonstrates how Microsoft 365 components connect:
+### 1. Built the identity foundation
 
-- Entra ID provides identity for every service  
-- Exchange powers mail and calendars  
-- SharePoint powers storage and collaboration  
-- Teams ties communication together  
-- Intune manages devices and enforces compliance  
-- Purview protects data and ensures governance  
-- Automation ties everything together for scale  
+I documented domain verification, DNS records, users, groups, departments, roles, and RBAC decisions. This demonstrates how identity becomes the control plane for the rest of the tenant.
 
-This repo shows the full picture of a modern cloud environment.
+Evidence: [Entra ID documentation](entra-ID/README.md) and [domain setup](domain-setup/README.md).
 
----
+### 2. Configured business collaboration services
 
-## 📁 Repository Structure
+I modeled mailboxes, shared mailboxes, distribution groups, mail-flow rules, SharePoint sites, document libraries, Teams structures, and governance boundaries.
 
-m365-itsolutions-business/
+Evidence: [Exchange Online](exchange-online/README.md) and [SharePoint–Teams](sharepoint-teams/README.md).
 
-│
+### 3. Added endpoint and security controls
 
-├── entra-id/               # Identity, users, groups, roles
+I documented Intune enrollment, compliance policies, configuration profiles, app deployment, sensitivity labels, retention, DLP, audit, and eDiscovery workflows.
 
-├── exchange/               # Mail, calendars, mail flow
+Evidence: [Intune](intune-setup/README.md) and [Security & Compliance](security-compliance/README.md).
 
-├── security-compliance/    # Purview, labels, retention, audit
+### 4. Practiced administration through automation
 
-├── intune/                 # Device management, compliance, apps
+I organized PowerShell, Graph API, and CLI workflows for bulk identity operations, Exchange administration, Intune tasks, and policy-oriented operations. The goal was to make cloud administration repeatable instead of relying only on portal clicks.
 
-├── automation/             # PowerShell, Graph, bulk ops
+Evidence: [Automation](automation/README.md).
 
-├── sharepoint/             # Sites, libraries, external sharing
+## Visual evidence
 
-├── teams/                  # Collaboration, meetings, groups
+The repository includes screenshots showing configuration and validation evidence, including domain and DNS verification, Entra ID users and roles, Exchange mail flow, Intune policies, Purview controls, SharePoint and Teams administration, and automation workflows. Screenshots are grouped by capability in the [`screenshots/`](screenshots/) directory.
 
-└── screenshots/            # Visual documentation
+## Skills demonstrated
 
+- Microsoft 365 administration
+- Microsoft Entra ID and RBAC fundamentals
+- Exchange Online and mail-flow administration
+- Intune endpoint management
+- SharePoint and Teams governance
+- Purview security and compliance concepts
+- PowerShell and Microsoft Graph automation
+- Architecture documentation and troubleshooting
 
-Every folder includes:
-- A detailed README  
-- Screenshots  
-- Hands-on steps  
-- Conceptual explanations  
+## Lessons learned
 
----
+- Identity is the foundation that connects Microsoft 365 services.
+- Cloud administration requires both configuration skills and governance thinking.
+- Automation reduces repetitive work and makes administrative tasks easier to validate.
+- Screenshots, diagrams, and decision-focused documentation make a homelab project easier to evaluate.
 
-## 🛠️ Skills Demonstrated
+## Security and scope
 
-This project showcases real-world IT admin skills:
-
-- Microsoft 365 administration  
-- Identity and access management  
-- Mail and collaboration configuration  
-- Endpoint management  
-- Security and compliance fundamentals  
-- Automation using PowerShell and Graph  
-- Documentation and architecture design  
-- Troubleshooting and testing workflows  
-
-This is the type of work done by:
-- IT Support  
-- Cloud Administrators  
-- M365 Administrators  
-- Systems Engineers  
-
----
-
-## 📸 Screenshots
-
-The `screenshots/` folder contains visual proof of:
-- Admin portal configurations  
-- Policies  
-- Mail flow  
-- Device compliance  
-- Labels and retention  
-- Automation scripts
-Screenshots reinforce hands-on experience.
-
----
-
-## ⭐ Summary
-
-This project is a complete Microsoft 365 business environment built for learning, documentation, and professional growth.  
-It demonstrates clear understanding of the entire M365 ecosystem, hands-on practice with core features, and conceptual knowledge of enterprise-level capabilities.
-
-This repo serves as a portfolio piece showing real IT skill, consistency, and technical clarity.
-
+This is a learning homelab and portfolio project. Screenshots should be redacted before publication, and no passwords, access tokens, tenant secrets, or personal data should be committed. Advanced features described as conceptual are labeled in their individual documentation rather than presented as production claims.
