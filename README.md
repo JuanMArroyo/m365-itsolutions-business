@@ -1,5 +1,7 @@
 # Microsoft 365 Business Environment
 
+> Solution package: [business and technical documentation](docs/solution-package.md)
+
 Portfolio project documenting the design and administration of a small-business Microsoft 365 tenant. The environment covers identity, messaging, endpoint management, collaboration, security, compliance, and automation through repeatable, engineer-style documentation.
 
 ## Why I built it
